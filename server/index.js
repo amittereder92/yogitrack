@@ -1,5 +1,4 @@
-// 1) Load env vars first - MUST be before anything else
-require("dotenv").config();
+require(".env").config();
 
 const mongoose = require("mongoose");
 const express = require("express");
